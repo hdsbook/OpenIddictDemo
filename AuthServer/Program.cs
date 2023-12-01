@@ -40,9 +40,9 @@ builder.Services.AddOpenIddict()
             .DisableAccessTokenEncryption()
             ;
 
-        options
-            .UseAspNetCore()
-            .EnableTokenEndpointPassthrough();
+        var netCoreBuilder = options.UseAspNetCore();
+        netCoreBuilder.EnableTokenEndpointPassthrough();
+        // netCoreBuilder.DisableTransportSecurityRequirement(); // 如果需要跑 http 的本機，可以加上這行避免錯誤
     });
 
 
