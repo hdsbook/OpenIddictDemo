@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer", "AuthServer\Au
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceServer", "ResourceServer\ResourceServer.csproj", "{122BB0C6-E4F8-426B-986C-7EFA40B6E3F0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServersTests", "ServersTests\ServersTests.csproj", "{E6692D30-26B1-400E-8805-585A0CD9E2AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{122BB0C6-E4F8-426B-986C-7EFA40B6E3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122BB0C6-E4F8-426B-986C-7EFA40B6E3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122BB0C6-E4F8-426B-986C-7EFA40B6E3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6692D30-26B1-400E-8805-585A0CD9E2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6692D30-26B1-400E-8805-585A0CD9E2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6692D30-26B1-400E-8805-585A0CD9E2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6692D30-26B1-400E-8805-585A0CD9E2AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
