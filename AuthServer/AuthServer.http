@@ -1,0 +1,11 @@
+@AuthServer_HostAddress = http://localhost:5147
+
+// AuthorizationController.Exchange
+// @no-log
+POST {{AuthServer_HostAddress}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials
+    &client_id=my-console-app
+    &client_secret=388D45FA-B36B-4988-BA59-B187D329C207
+###

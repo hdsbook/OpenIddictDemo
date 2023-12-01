@@ -1,3 +1,4 @@
+using AuthServer;
 using AuthServer.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -45,6 +46,8 @@ builder.Services.AddOpenIddict()
         // netCoreBuilder.DisableTransportSecurityRequirement(); // 如果需要跑 http 的本機，可以加上這行避免錯誤
     });
 
+// 新增 TestClients
+builder.Services.AddHostedService<TestClient>();
 
 var app = builder.Build();
 
