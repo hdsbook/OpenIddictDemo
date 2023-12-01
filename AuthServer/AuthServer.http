@@ -1,4 +1,4 @@
-@AuthServer_HostAddress = http://localhost:5147
+@AuthServer_HostAddress = https://localhost:7225
 
 // AuthorizationController.Exchange
 // @no-log
